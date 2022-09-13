@@ -1,0 +1,26 @@
+/* Fonts */
+@font-face {
+  font-family: pangeram;
+  src: url('fonts/Pangeram.ttf');
+}
+* {
+  font-family: 'pangram';
+}
+/* Nav Text Animation */
+.waviy {
+  position: relative;
+}
+.waviy span {
+  letter-spacing: -4px;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
