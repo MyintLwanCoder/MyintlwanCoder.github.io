@@ -1,40 +1,42 @@
 /* Fonts */
-@font-face {
-  font-family: pangeram;
-  src: url('fonts/Pangeram.ttf');
+
+@font-face{
+ font-family: pangram;
+ src: url('fonts/Pangram.ttf');
 }
-* {
-  font-family: 'pangram';
+*{
+ font-family: pangram;
 }
-/* Nav Text Animation */
+/* Nav Text animation */
 .waviy {
   position: relative;
 }
 .waviy span {
-  letter-spacing: -4px;
   position: relative;
   display: inline-block;
   text-transform: uppercase;
   animation: flip 2s infinite;
-  animation-delay: calc(0.2s * var(--i));
+  animation-delay: calc(.2s * var(--i))
 }
 @keyframes flip {
-  0%,
-  80% {
-    transform: rotateY(360deg);
+  0%,80% {
+    transform: rotateY(360deg) 
   }
 }
-/* popular song modal css*/
-.modal-dialog {
+
+/* Popular song modal css */
+.modal-dialog{
   max-width: 800px;
-  margin: 30px auto;
+  border-width: 0.2rem;
+  border-color: green;
+  margin:  30px auto;
 }
-.modal-body {
+.modal-body{
   position: relative;
   padding: 0;
 }
-
 .btn-close {
   position: absolute;
+  top: 0;
   right: -30px;
 }
