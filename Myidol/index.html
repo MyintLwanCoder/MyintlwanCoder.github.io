@@ -7,6 +7,11 @@
     <title>Htoo Eain Thin</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="splide/css/splide.min.css" />
   </head>
@@ -46,26 +51,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item fw-bold px-4">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              <a class="nav-link active" aria-current="page" href="#home"
+                >HOME</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold px-4" href="#">ABOUT</a>
+              <a class="nav-link fw-bold px-4" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold px-4" href="#">ALBUM</a>
+              <a class="nav-link fw-bold px-4" href="#album">ALBUM</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold px-4" href="#">GALLERY</a>
+              <a class="nav-link fw-bold px-4" href="#gallery">GALLERY</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold px-4" href="#">CONTACT</a>
+              <a class="nav-link fw-bold px-4" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container mt-5">
+    <div class="container mt-5" id="home">
       <!-- Main Header -->
       <div class="row">
         <div class="col-lg-8 mt-5">
@@ -95,7 +102,7 @@
         </div>
       </div>
       <!-- About -->
-      <div class="row pt-5">
+      <div class="row pt-5" id="about">
         <div class="col-lg-5 mt-5">
           <img class="img-fluid" src="images/het2.jpg" alt="" />
         </div>
@@ -187,7 +194,7 @@
       </div>
       <!-- Albout -->
 
-      <div class="row mt-5">
+      <div class="row mt-5" id="album">
         <div class="offset-lg-5 col-md-2">
           <h1 class="text-center">Albums</h1>
           <hr class="border border-dark mt-0" />
@@ -198,49 +205,141 @@
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <img src="images/alb1.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb1.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">ချစ်ခြင်းအားဖြင့်</h2>
+                    <a
+                      class="info mt-3"
+                      target="_blank"
+                      href="https://phyuniwarpyar.blogspot.com/2015/04/blog-post_901.html"
+                      >Play</a
+                    >
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb2.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb2.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">အမှတ်တရဒဏ်ရာ</h2>
+                    <a
+                      class="info mt-3"
+                      href="https://phyuniwarpyar.blogspot.com/2015/04/blog-post_660.html"
+                      target="_blank"
+                      >Play</a
+                    >
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb3.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb3.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">နာရီပေါ်မှမျက်ရည်စက်များ</h2>
+                    <a
+                      class="info mt-3"
+                      href="https://phyuniwarpyar.blogspot.com/2015/04/blog-post_35.html"
+                      target="_blank"
+                      >Play</a
+                    >
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb4.jpg" alt="" cass="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb4.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">မှော်ဆရာအိမ်မက်</h2>
+                    <a class="info mt-3" href="#" target="_blank">Play</a>
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb5.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb5.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">သက်ငြိမ်</h2>
+                    <a
+                      class="info mt-3"
+                      href="https://phyuniwarpyar.blogspot.com/2015/04/blog-post_92.html"
+                      target="_blank"
+                      >Play</a
+                    >
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb6.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb6.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">နာရီပေါ်မှမျက်ရည်စက်များ</h2>
+                    <a class="info mt-3" href="#">Play</a>
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb7.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb7.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">နာရီပေါ်မှမျက်ရည်စက်များ</h2>
+                    <a class="info mt-3" href="#">Play</a>
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb8.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb8.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">နာရီပေါ်မှမျက်ရည်စက်များ</h2>
+                    <a class="info mt-3" href="#">Play</a>
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb9.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb9.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">နာရီပေါ်မှမျက်ရည်စက်များ</h2>
+                    <a class="info mt-3" href="#">Play</a>
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb10.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb10.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">နာရီပေါ်မှမျက်ရည်စက်များ</h2>
+                    <a class="info mt-3" href="#">Play</a>
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb11.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb11.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">နာရီပေါ်မှမျက်ရည်စက်များ</h2>
+                    <a class="info mt-3" href="">Play</a>
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb12.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb12.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">နာရီပေါ်မှမျက်ရည်စက်များ</h2>
+                    <a class="info mt-3" href="#">Play</a>
+                  </div>
+                </div>
               </li>
               <li class="splide__slide">
-                <img src="images/alb13.jpg" alt="" class="img-fluid" />
-              </li>
-              <li class="splide__slide">
-                <img src="images/alb14.jpg" alt="" class="img-fluid" />
-              </li>
-              <li class="splide__slide">
-                <img src="images/alb15.jpg" alt="" class="img-fluid" />
+                <div class="hovereffect">
+                  <img src="images/alb13.jpg" alt="" class="img-fluid" />
+                  <div class="overlay">
+                    <h2 class="mt-5">နာရီပေါ်မှမျက်ရည်စက်များ</h2>
+                    <a class="info mt-3" href="#">Play</a>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -465,6 +564,70 @@
         </div>
       </div>
     </div>
+
+    <div class="bg-dark py-5 my-5">
+      <div class="text-light text-center">
+        <h3>R.I.P</h3>
+        <h1>Htoo Eain Thin</h1>
+        <h3>1986 - 2004</h3>
+      </div>
+    </div>
+    <div class="container" id="gallery">
+      <div class="row mt-5">
+        <div class="offset-lg-5 col-md-2">
+          <h1 class="text-center">Gallery</h1>
+          <hr class="border border-dark mt-0" />
+        </div>
+      </div>
+      <div class="row photos">
+        <div class="col-sm-6 col-md-4 col-lg-3 item">
+          <a href="images/gal1.jpg" data-lightbox="photos">
+            <img class="img-fluid" src="images/gal1.jpg" />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 item">
+          <a href="images/gal1.jpg" data-lightbox="photos">
+            <img class="img-fluid" src="images/gal1.jpg" />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 item">
+          <a href="images/gal1.jpg" data-lightbox="photos">
+            <img class="img-fluid" src="images/gal1.jpg" />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 item">
+          <a href="images/gal1.jpg" data-lightbox="photos">
+            <img class="img-fluid" src="images/gal1.jpg" />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 item">
+          <a href="images/gal1.jpg" data-lightbox="photos">
+            <img class="img-fluid" src="images/gal1.jpg" />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 item">
+          <a href="images/gal1.jpg" data-lightbox="photos">
+            <img class="img-fluid" src="images/gal1.jpg" />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 item">
+          <a href="images/gal1.jpg" data-lightbox="photos">
+            <img class="img-fluid" src="images/gal1.jpg" />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 item">
+          <a href="images/gal1.jpg" data-lightbox="photos">
+            <img class="img-fluid" src="images/gal1.jpg" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="bg-secondary py-5 mt-5 text-center text-light">
+      <h4>
+        All Ritht Reserved | Design By MYINT Make With
+        <span style="color: red">&hearts;</span>
+      </h4>
+    </div>
     <div
       class="modal fade"
       id="sg8"
@@ -496,8 +659,8 @@
         </div>
       </div>
     </div>
-
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="js/type-text.js"></script>
     <script src="splide/js/splide.min.js"></script>
     <script src="splide/js/splide.min.js"></script>
@@ -507,7 +670,6 @@
         perPage: 5,
         rewind: true,
       });
-
       splide.mount();
     </script>
   </body>
